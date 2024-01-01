@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		127EDB312B42D4F000F87B6C /* AddForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EDB302B42D4F000F87B6C /* AddForm.swift */; };
+		129027E22B426F1300A3B0CC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 129027E12B426F1300A3B0CC /* Alamofire */; };
+		129027E82B42700300A3B0CC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027E72B42700300A3B0CC /* ProfileView.swift */; };
+		129027EA2B42701500A3B0CC /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027E92B42701500A3B0CC /* BookListView.swift */; };
+		129027EC2B4270E400A3B0CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027EB2B4270E400A3B0CC /* LoginView.swift */; };
+		129027EE2B42717D00A3B0CC /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027ED2B42717D00A3B0CC /* AuthService.swift */; };
+		129027F02B42719300A3B0CC /* UserLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027EF2B42719300A3B0CC /* UserLoginModel.swift */; };
+		129027F22B4271BD00A3B0CC /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027F12B4271BD00A3B0CC /* BookModel.swift */; };
+		129027F42B4271D500A3B0CC /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027F32B4271D500A3B0CC /* BookService.swift */; };
+		129027F62B42720500A3B0CC /* BookCRUDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027F52B42720500A3B0CC /* BookCRUDViewModel.swift */; };
+		129027F82B42723100A3B0CC /* LoginFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027F72B42723100A3B0CC /* LoginFlowView.swift */; };
+		129027FA2B42951F00A3B0CC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027F92B42951F00A3B0CC /* LoadingView.swift */; };
+		129027FC2B42BA7100A3B0CC /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129027FB2B42BA7100A3B0CC /* BookDetailView.swift */; };
 		12F20FA02B426EBC004C5F9E /* BookCRUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F20F9F2B426EBC004C5F9E /* BookCRUDApp.swift */; };
 		12F20FA22B426EBC004C5F9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F20FA12B426EBC004C5F9E /* ContentView.swift */; };
 		12F20FA42B426EBD004C5F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F20FA32B426EBD004C5F9E /* Assets.xcassets */; };
@@ -14,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		127EDB302B42D4F000F87B6C /* AddForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddForm.swift; sourceTree = "<group>"; };
+		129027E72B42700300A3B0CC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		129027E92B42701500A3B0CC /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
+		129027EB2B4270E400A3B0CC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		129027ED2B42717D00A3B0CC /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		129027EF2B42719300A3B0CC /* UserLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginModel.swift; sourceTree = "<group>"; };
+		129027F12B4271BD00A3B0CC /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		129027F32B4271D500A3B0CC /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		129027F52B42720500A3B0CC /* BookCRUDViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCRUDViewModel.swift; sourceTree = "<group>"; };
+		129027F72B42723100A3B0CC /* LoginFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlowView.swift; sourceTree = "<group>"; };
+		129027F92B42951F00A3B0CC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		129027FB2B42BA7100A3B0CC /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		12F20F9C2B426EBC004C5F9E /* BookCRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookCRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F20F9F2B426EBC004C5F9E /* BookCRUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCRUDApp.swift; sourceTree = "<group>"; };
 		12F20FA12B426EBC004C5F9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +51,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129027E22B426F1300A3B0CC /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12472B2A2B430C33004C9AC9 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				129027E92B42701500A3B0CC /* BookListView.swift */,
+				129027FB2B42BA7100A3B0CC /* BookDetailView.swift */,
+				127EDB302B42D4F000F87B6C /* AddForm.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		12472B2B2B430C54004C9AC9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				129027E72B42700300A3B0CC /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		12472B2C2B430CA6004C9AC9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				129027EB2B4270E400A3B0CC /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		129027E32B426F1C00A3B0CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12472B2C2B430CA6004C9AC9 /* Login */,
+				12472B2B2B430C54004C9AC9 /* Profile */,
+				12472B2A2B430C33004C9AC9 /* Book */,
+				12F20FA12B426EBC004C5F9E /* ContentView.swift */,
+				129027F92B42951F00A3B0CC /* LoadingView.swift */,
+				129027F72B42723100A3B0CC /* LoginFlowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		129027E42B426F2000A3B0CC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				129027F52B42720500A3B0CC /* BookCRUDViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		129027E52B426F2A00A3B0CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				129027EF2B42719300A3B0CC /* UserLoginModel.swift */,
+				129027F12B4271BD00A3B0CC /* BookModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		129027E62B426F5300A3B0CC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				129027ED2B42717D00A3B0CC /* AuthService.swift */,
+				129027F32B4271D500A3B0CC /* BookService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		12F20F932B426EBC004C5F9E = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +142,11 @@
 		12F20F9E2B426EBC004C5F9E /* BookCRUD */ = {
 			isa = PBXGroup;
 			children = (
+				129027E62B426F5300A3B0CC /* Services */,
+				129027E52B426F2A00A3B0CC /* Models */,
+				129027E42B426F2000A3B0CC /* ViewModels */,
+				129027E32B426F1C00A3B0CC /* Views */,
 				12F20F9F2B426EBC004C5F9E /* BookCRUDApp.swift */,
-				12F20FA12B426EBC004C5F9E /* ContentView.swift */,
 				12F20FA32B426EBD004C5F9E /* Assets.xcassets */,
 				12F20FA52B426EBD004C5F9E /* Preview Content */,
 			);
@@ -83,6 +177,9 @@
 			dependencies = (
 			);
 			name = BookCRUD;
+			packageProductDependencies = (
+				129027E12B426F1300A3B0CC /* Alamofire */,
+			);
 			productName = BookCRUD;
 			productReference = 12F20F9C2B426EBC004C5F9E /* BookCRUD.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +208,9 @@
 				Base,
 			);
 			mainGroup = 12F20F932B426EBC004C5F9E;
+			packageReferences = (
+				129027E02B426F1300A3B0CC /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 12F20F9D2B426EBC004C5F9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +237,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129027EA2B42701500A3B0CC /* BookListView.swift in Sources */,
+				129027F62B42720500A3B0CC /* BookCRUDViewModel.swift in Sources */,
 				12F20FA22B426EBC004C5F9E /* ContentView.swift in Sources */,
+				127EDB312B42D4F000F87B6C /* AddForm.swift in Sources */,
+				129027E82B42700300A3B0CC /* ProfileView.swift in Sources */,
+				129027EE2B42717D00A3B0CC /* AuthService.swift in Sources */,
+				129027FA2B42951F00A3B0CC /* LoadingView.swift in Sources */,
+				129027EC2B4270E400A3B0CC /* LoginView.swift in Sources */,
+				129027F82B42723100A3B0CC /* LoginFlowView.swift in Sources */,
+				129027F42B4271D500A3B0CC /* BookService.swift in Sources */,
+				129027F02B42719300A3B0CC /* UserLoginModel.swift in Sources */,
+				129027F22B4271BD00A3B0CC /* BookModel.swift in Sources */,
+				129027FC2B42BA7100A3B0CC /* BookDetailView.swift in Sources */,
 				12F20FA02B426EBC004C5F9E /* BookCRUDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +392,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +422,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +458,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		129027E02B426F1300A3B0CC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		129027E12B426F1300A3B0CC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 129027E02B426F1300A3B0CC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 12F20F942B426EBC004C5F9E /* Project object */;
 }
